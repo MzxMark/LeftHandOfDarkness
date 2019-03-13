@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Default Work Unit\SFX\UI\Button_Press"/>
+				<Event Id="1208921305" Name="Dialogue_Option" ObjectPath="\Events\Default Work Unit\SFX\UI\Dialogue_Option"/>
+				<Event Id="103063709" Name="On_Foot" ObjectPath="\Events\Default Work Unit\SFX\Player\On_Foot" MaxAttenuation="0.000000"/>
+				<Event Id="2254796419" Name="On_Sled" ObjectPath="\Events\Default Work Unit\SFX\Player\On_Sled"/>
+				<Event Id="1138681371" Name="Player_Buy" ObjectPath="\Events\Default Work Unit\SFX\UI\Player_Buy"/>
+				<Event Id="3409090725" Name="Player_Sell" ObjectPath="\Events\Default Work Unit\SFX\UI\Player_Sell"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="17819996" Language="SFX">
+					<ShortName>Trade_Buy_1.wav</ShortName>
+					<Path>SFX\Trade_Buy_1_D1700A2E.wem</Path>
+				</File>
+				<File Id="42580081" Language="SFX">
+					<ShortName>Bad_Stab.wav</ShortName>
+					<Path>SFX\Bad_Stab_F962F742.wem</Path>
+				</File>
+				<File Id="70052960" Language="SFX">
+					<ShortName>Wind.wav</ShortName>
+					<Path>SFX\Wind_8956FC97.wem</Path>
+				</File>
+				<File Id="88311031" Language="SFX">
+					<ShortName>Trade_Sell_3.wav</ShortName>
+					<Path>SFX\Trade_Sell_3_56D34C19.wem</Path>
+				</File>
+				<File Id="123098594" Language="SFX">
+					<ShortName>Trade_Buy_4.wav</ShortName>
+					<Path>SFX\Trade_Buy_4_8380849C.wem</Path>
+				</File>
+				<File Id="337765474" Language="SFX">
+					<ShortName>Neutral_Stab.wav</ShortName>
+					<Path>SFX\Neutral_Stab_5872C1FE.wem</Path>
+				</File>
+				<File Id="442714228" Language="SFX">
+					<ShortName>Trade_Sell_2.wav</ShortName>
+					<Path>SFX\Trade_Sell_2_56D34C19.wem</Path>
+				</File>
+				<File Id="494976030" Language="SFX">
+					<ShortName>Trade_Sell_4.wav</ShortName>
+					<Path>SFX\Trade_Sell_4_56D34C19.wem</Path>
+				</File>
+				<File Id="564809937" Language="SFX">
+					<ShortName>Sled_High.wav</ShortName>
+					<Path>SFX\Sled_High_8956FC97.wem</Path>
+				</File>
+				<File Id="619055811" Language="SFX">
+					<ShortName>Good_Stab.wav</ShortName>
+					<Path>SFX\Good_Stab_C2F8B8F9.wem</Path>
+				</File>
+				<File Id="628816047" Language="SFX">
+					<ShortName>Sled_Mid.wav</ShortName>
+					<Path>SFX\Sled_Mid_8956FC97.wem</Path>
+				</File>
+				<File Id="643226422" Language="SFX">
+					<ShortName>Trade_Buy_3.wav</ShortName>
+					<Path>SFX\Trade_Buy_3_919C8FE7.wem</Path>
+				</File>
+				<File Id="679915528" Language="SFX">
+					<ShortName>Trade_Sell_1.wav</ShortName>
+					<Path>SFX\Trade_Sell_1_56D34C19.wem</Path>
+				</File>
+				<File Id="699168561" Language="SFX">
+					<ShortName>UI_Generic.wav</ShortName>
+					<Path>SFX\UI_Generic_36870D9F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1108951413" Name="In_Dialogue" ObjectPath="\Events\Default Work Unit\Music\In_Dialogue"/>
+				<Event Id="905934968" Name="Out_Dialogue" ObjectPath="\Events\Default Work Unit\Music\Out_Dialogue" MaxAttenuation="0.000000"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="12776846" Language="SFX">
+					<ShortName>70_BPM_Horns.wav</ShortName>
+					<Path>SFX\70_BPM_Horns_8956FC97.wem</Path>
+				</File>
+				<File Id="220629125" Language="SFX">
+					<ShortName>70_BPM_High_String_Piano.wav</ShortName>
+					<Path>SFX\70_BPM_High_String_Piano_8956FC97.wem</Path>
+				</File>
+				<File Id="459637352" Language="SFX">
+					<ShortName>LHD_Layer_1.1_70BPM.wav</ShortName>
+					<Path>SFX\LHD_Layer_1.1_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="546248414" Language="SFX">
+					<ShortName>LHD_Layer_2.1_70BPM.wav</ShortName>
+					<Path>SFX\LHD_Layer_2.1_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="575680264" Language="SFX">
+					<ShortName>Good_70BPM.wav</ShortName>
+					<Path>SFX\Good_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="673392505" Language="SFX">
+					<ShortName>70_BPM_Strings.wav</ShortName>
+					<Path>SFX\70_BPM_Strings_8956FC97.wem</Path>
+				</File>
+				<File Id="822876521" Language="SFX">
+					<ShortName>Backing_70BPM.wav</ShortName>
+					<Path>SFX\Backing_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="828675159" Language="SFX">
+					<ShortName>LHD_Layer_2_70BPM.wav</ShortName>
+					<Path>SFX\LHD_Layer_2_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="941846508" Language="SFX">
+					<ShortName>LHD_Layer_1_70BPM.wav</ShortName>
+					<Path>SFX\LHD_Layer_1_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="997937027" Language="SFX">
+					<ShortName>70_BPM_High_Glokenshpiel.wav</ShortName>
+					<Path>SFX\70_BPM_High_Glokenshpiel_8956FC97.wem</Path>
+				</File>
+				<File Id="1015287052" Language="SFX">
+					<ShortName>Neutral_70BPM.wav</ShortName>
+					<Path>SFX\Neutral_70BPM_8956FC97.wem</Path>
+				</File>
+				<File Id="1027997546" Language="SFX">
+					<ShortName>Bad_70BPM.wav</ShortName>
+					<Path>SFX\Bad_70BPM_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

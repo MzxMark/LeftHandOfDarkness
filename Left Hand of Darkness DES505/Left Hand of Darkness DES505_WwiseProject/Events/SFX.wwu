@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}" SchemaVersion="89" RootDocumentID="{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}" OwnerID="{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="UI" ID="{17435218-EF18-4584-A4DE-ED7BEBC1C8DD}" ShortID="1015712613">
+					<ChildrenList>
+						<Event Name="Player_Buy" ID="{8ECDADB6-35F7-4E57-B22D-DFE0252C2B5F}">
+							<ChildrenList>
+								<Action Name="" ID="{23DA3811-387D-4F35-A724-43432F5147DC}" ShortID="989785783">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Buy" ID="{3CF6B73E-7110-42E9-BD6F-47B4BF53EEA1}" WorkUnitID="{5B4B9218-EAD1-4147-BED0-9DF9E381CF50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Sell" ID="{9AC4C0A9-52AF-43C8-B00A-6AED6B32AA9A}">
+							<ChildrenList>
+								<Action Name="" ID="{02247E4A-20AA-4DB1-B9D0-426766D079CC}" ShortID="253834645">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sell" ID="{F7A47A96-E971-44AF-85D0-7D5C6C19B438}" WorkUnitID="{5B4B9218-EAD1-4147-BED0-9DF9E381CF50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Button_Press" ID="{4942DC74-DD4A-42AC-A531-28FE339A8077}">
+							<ChildrenList>
+								<Action Name="" ID="{DAAFA002-064A-4AA2-AADB-EE4100986AB1}" ShortID="760169116">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Generic" ID="{F178D0E3-0D7E-422E-B637-72C1B81DA8FF}" WorkUnitID="{5B4B9218-EAD1-4147-BED0-9DF9E381CF50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dialogue_Option" ID="{53C6B2DB-5FB7-4B5E-858B-A5392B126B98}">
+							<ChildrenList>
+								<Action Name="" ID="{E1211BB4-6E9C-47B6-B9BD-536D5C89B295}" ShortID="648602118">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dialogue_Choices" ID="{57F4639B-8779-42E4-BF60-05ED6CDD5F91}" WorkUnitID="{5B4B9218-EAD1-4147-BED0-9DF9E381CF50}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{582CB006-14D8-4D80-B7E9-A7097F818274}" ShortID="481223950">
+					<ChildrenList>
+						<Event Name="On_Sled" ID="{5FCE5F69-54CE-4DA3-A8BB-D5488DE6A919}">
+							<ChildrenList>
+								<Action Name="" ID="{7270618F-28A9-4FA9-B6C3-A383BC75ECDE}" ShortID="906653031">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sled_Movment" ID="{FBA1B6B4-E79A-4EC1-98C2-72E52717AD94}" WorkUnitID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EEBD2289-B26B-4A6A-A469-AEAB3176B3D5}" ShortID="714038181">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind" ID="{59D806D7-B8DE-421A-AE87-036C015CD068}" WorkUnitID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="On_Foot" ID="{3F335AFC-7D09-4EFD-81CD-2755B64AA60A}">
+							<ChildrenList>
+								<Action Name="" ID="{5E5D6597-AEBD-4054-B7EB-5D78803CE00A}" ShortID="153639290">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sled_Movment" ID="{FBA1B6B4-E79A-4EC1-98C2-72E52717AD94}" WorkUnitID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BDEC8810-574D-4364-AFBB-25C98B7A5E81}" ShortID="536319380">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind" ID="{59D806D7-B8DE-421A-AE87-036C015CD068}" WorkUnitID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

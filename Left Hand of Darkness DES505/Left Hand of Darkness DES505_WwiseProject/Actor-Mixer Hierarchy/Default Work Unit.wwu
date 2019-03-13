@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03D1121A-B6C5-406F-BE41-DB790E125BFA}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{03D1121A-B6C5-406F-BE41-DB790E125BFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{691039E5-2B4D-47AF-B62F-B460DEA1B366}" PersistMode="Reference"/>
+				<WorkUnit Name="Sled" ID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}" PersistMode="Reference"/>
+				<WorkUnit Name="Enviroment" ID="{E3C3DF65-5337-414F-840A-1973E5D427EE}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{5B4B9218-EAD1-4147-BED0-9DF9E381CF50}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

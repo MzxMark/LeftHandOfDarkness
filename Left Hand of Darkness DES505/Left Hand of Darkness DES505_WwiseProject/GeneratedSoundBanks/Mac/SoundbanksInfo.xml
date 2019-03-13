@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

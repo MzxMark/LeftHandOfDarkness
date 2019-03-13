@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{677F05D0-4C42-47A8-BC7D-8BDEE8AAB73D}" WorkUnitID="{9F34015F-0D49-4672-8723-5850EEF21C09}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music_Bus" ID="{2D227FBD-A3BD-42D3-BB6C-7B0047FBE6A7}">
+							<ChildrenList>
+								<AuxBus Name="Music_Reverb" ID="{EA1D57DF-EFAF-42FF-B6C9-26454B8C13C3}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX_Bus" ID="{EB92FD00-AF69-4D62-90BB-381552AB03F0}">
+							<ChildrenList>
+								<AuxBus Name="SFX_Reverb" ID="{F1891F2E-DD5C-4E83-B3EB-09050134CD46}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

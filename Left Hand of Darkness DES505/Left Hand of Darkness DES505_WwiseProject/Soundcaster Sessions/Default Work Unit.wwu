@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51B28946-8283-4197-99FE-0D130D3FED0A}" SchemaVersion="89">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{51B28946-8283-4197-99FE-0D130D3FED0A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Gameplay" ID="{B35480D8-BBAD-49C6-987B-8D3395677115}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="On_Foot" ID="{3F335AFC-7D09-4EFD-81CD-2755B64AA60A}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="On_Sled" ID="{5FCE5F69-54CE-4DA3-A8BB-D5488DE6A919}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Button_Press" ID="{4942DC74-DD4A-42AC-A531-28FE339A8077}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Buy" ID="{8ECDADB6-35F7-4E57-B22D-DFE0252C2B5F}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Sell" ID="{9AC4C0A9-52AF-43C8-B00A-6AED6B32AA9A}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="In_Dialogue" ID="{31561C0C-3669-41A9-BC9D-592CFD468683}" WorkUnitID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Out_Dialogue" ID="{E6668FA1-73B2-4AFF-A712-9BBE537568A6}" WorkUnitID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dialogue_Option" ID="{53C6B2DB-5FB7-4B5E-858B-A5392B126B98}" WorkUnitID="{D6B4A9B7-A434-4D5D-9868-683AEF312A56}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{95B61563-7E8F-448F-8B04-84E94E5718B8}" WorkUnitID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music" ID="{ED311C45-2DD0-486B-8B47-9F11584CF0D0}" WorkUnitID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Player_Shifgrethor" ID="{CC611FC1-E35B-4993-84D3-E56DD23639AA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sled_Speed" ID="{BF54F1EE-AAA8-49EE-BA60-4D18CD697BAD}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Good" ID="{61A62651-9CE9-4E6E-8E11-0295039A0756}"/>
+						<CurrentSwitchRef Name="On_Sled" ID="{F195A7C7-C15F-4FF4-A549-B99CD10D4BA9}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

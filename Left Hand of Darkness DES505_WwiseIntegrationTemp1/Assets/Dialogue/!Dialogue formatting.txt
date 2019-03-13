@@ -1,0 +1,56 @@
+DIALOGUE README
+
+Formatting:
+
+Every line should start with its own line number and end with the number of the next line in its sequence.  The last line in a sequence should have a '#' in place of its ending number.  For example:
+1 This is line one. 2
+2 This is line two. 3
+3 This is line three. #
+
+If a line is to be said by the player, preface it with a 'P'.  For example:
+1P I am the player character. 2
+
+If a line is to be said by the NPC, preface it with an 'N'.  For example:
+1N I am an NPC. 2
+
+If a line is to be one of multiple choices, preface it with a 'C'.  For example:
+1C+ This choice will increase shifgrethor. 2
+1C= This choice will not affect shifgrethor. 3
+1C- This choice will decrease shifgrethor. 4
+DO NOT create an option to choose "Goodbye."  This will be automatically prompted alongside every choice.
+DO NOT give more than three options.  The maximum number of options that can be displayed is four, and the last one will always automatically be "Goodbye."
+
+If a choice should prompt trade, make sure it includes the word "trade."  This is not case-sensitive.  For example:
+1C+ This choice will increase shifgrethor. 2
+1C- This choice will decrease shifgrethor. 3
+1C= This choice will not affect shifgrethor but will open the trade screen. #
+
+Create a single farewell from the NPC at the end of every tree.  This will be the NPC's reply whenever the player chooses to abort conversation.  For example:
+36N Goodbye, player. #
+24N See you soon! #
+15N Farewell. #
+
+===============================================================================================
+
+Here is an example dialogue tree.  This can be seen in action by copying this link into your browser: i.imgur.com/hZi6AYU.gif
+1P I am the player character. 2
+2P Right now, I am testing the dialogue in my world. 3
+3N Hello, player. 4
+4N I am an NPC.  Can I help with your test? 5
+5C+ Of course! 7
+6C- No way! 14
+7N I'm happy to help! 8
+8N So what can I do? 9
+9C= Let me talk next. 12
+10C- Leave me alone. 14
+11C= Let's trade. #
+12N Okay, you say something then. 13
+13P Something. #
+14N That's a bit harsh.  Are you sure you want me to leave? 15
+15C+ No, you can stay.  Sorry. 18
+16C= Your choice, I suppose. 19
+17C- Yes.  Go away. 20
+18N Hurray, we're buddies. #
+19N Okay, uh... I guess I'll go then. #
+20N I'm sorry I burdened you with my friendship. :'( #
+21N Goodbye, player. #

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}" SchemaVersion="89" RootDocumentID="{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}">
+	<Events>
+		<WorkUnit Name="Music" ID="{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}" OwnerID="{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{95B61563-7E8F-448F-8B04-84E94E5718B8}">
+					<ChildrenList>
+						<Action Name="" ID="{07871D51-3A79-4B56-B146-760F70AD401D}" ShortID="214421139">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{1D5EF311-007D-4F41-9A5C-4FF72220FFA0}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{ED311C45-2DD0-486B-8B47-9F11584CF0D0}">
+					<ChildrenList>
+						<Action Name="" ID="{B805BAE1-1953-42AD-B430-8538B2652758}" ShortID="805348230">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Exploration" ID="{1D5EF311-007D-4F41-9A5C-4FF72220FFA0}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="In_Dialogue" ID="{31561C0C-3669-41A9-BC9D-592CFD468683}">
+					<ChildrenList>
+						<Action Name="" ID="{2F0943E5-D5EE-4F8D-AB78-0C740B4EE800}" ShortID="473922045">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Background" ID="{30F9B864-C217-484F-982D-9A12A6E159E2}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3C8A86F4-A993-43C0-8D49-AC195FAC944D}" ShortID="704018924">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Layers" ID="{F4DCB088-5A5F-477D-ADF6-6CDAB46F77BC}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Out_Dialogue" ID="{E6668FA1-73B2-4AFF-A712-9BBE537568A6}">
+					<ChildrenList>
+						<Action Name="" ID="{8D3D98B2-5446-4B9B-89F5-32C5C78FFB0A}" ShortID="731271152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Background" ID="{30F9B864-C217-484F-982D-9A12A6E159E2}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E020565-82AF-4AF3-9118-3A04A9C0A260}" ShortID="1014655195">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dialogue_Layers" ID="{F4DCB088-5A5F-477D-ADF6-6CDAB46F77BC}" WorkUnitID="{948505BC-5E45-46BC-B95A-D03594AA14AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	905934968	Out_Dialogue			\Default Work Unit\Music\Out_Dialogue	
+	1108951413	In_Dialogue			\Default Work Unit\Music\In_Dialogue	
+	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1636617095	Sled_Speed			\Default Work Unit\Sled_Speed	
+	1889618524	Player_Shifgrethor			\Default Work Unit\Player_Shifgrethor	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12776846	70_BPM_Horns	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\70_BPM_Horns_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Foot\On_Foot_Layers\70_BPM_Horns		5443268
+	220629125	70_BPM_High_String_Piano	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\70_BPM_High_String_Piano_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Foot\On_Foot_Layers\70_BPM_High_String_Piano		5443268
+	459637352	LHD_Layer_1_1_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\LHD_Layer_1.1_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Sled\On_Sled_Layers\LHD_Layer_1_1_70BPM		5142088
+	546248414	LHD_Layer_2_1_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\LHD_Layer_2.1_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Sled\On_Sled_Layers\LHD_Layer_2_1_70BPM		5142088
+	575680264	Good_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Good_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Dialogue_Layers\Layers\Good_70BPM		1509652
+	673392505	70_BPM_Strings	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\70_BPM_Strings_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Foot\On_Foot_Layers\70_BPM_Strings		5443268
+	822876521	Backing_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Backing_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Dialogue_Background\Background\Backing_70BPM		3924412
+	828675159	LHD_Layer_2_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\LHD_Layer_2_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Sled\On_Sled_Layers\LHD_Layer_2_70BPM		5142088
+	941846508	LHD_Layer_1_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\LHD_Layer_1_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Sled\On_Sled_Layers\LHD_Layer_1_70BPM		5142088
+	997937027	70_BPM_High_Glokenshpiel	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\70_BPM_High_Glokenshpiel_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Exploration\On_Foot\On_Foot_Layers\70_BPM_High_Glokenshpiel		5443268
+	1015287052	Neutral_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Neutral_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Dialogue_Layers\Layers\Neutral_70BPM		1512456
+	1027997546	Bad_70BPM	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Bad_70BPM_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Dialogue_Layers\Layers\Bad_70BPM		1504972
+
