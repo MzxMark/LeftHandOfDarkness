@@ -17,15 +17,15 @@ MonoBehaviour:
   m_lastPopulateTimePsrt1: 0
   AcousticTextureWwu:
   - Guid: '{86199F17-ADAA-427E-BBFD-6BD9EA02F54C}'
-    m_lastTimePart2: -1999198275
-    m_lastTimePsrt1: 205582392
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1117681795
     ParentPhysicalPath: 
     PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     List: []
   AuxBusWwu:
   - Guid: '{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}'
-    m_lastTimePart2: -1999198268
-    m_lastTimePsrt1: 1757840304
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1094400251
     ParentPhysicalPath: 
     PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     List:
@@ -57,8 +57,8 @@ MonoBehaviour:
         ObjectType: 1
   BankWwu:
   - Guid: '{EA7CA8CE-1975-4D09-B88E-9E8A7D6E0121}'
-    m_lastTimePart2: -1999198267
-    m_lastTimePsrt1: -1879833698
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1117213053
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
     List:
@@ -82,14 +82,14 @@ MonoBehaviour:
         ObjectType: 7
   EventWwu:
   - Guid: '{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}'
-    m_lastTimePart2: -1999198270
-    m_lastTimePsrt1: 146686886
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1077838042
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
     List: []
   - Guid: '{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}'
-    m_lastTimePart2: -1999198270
-    m_lastTimePsrt1: 146374392
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1077838042
     ParentPhysicalPath: Events\Default Work Unit.wwu
     PhysicalPath: Events\Music.wwu
     List:
@@ -150,8 +150,8 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
   - Guid: '{D6B4A9B7-A434-4D5D-9868-683AEF312A56}'
-    m_lastTimePart2: -1999198269
-    m_lastTimePsrt1: 1435708915
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1077994674
     ParentPhysicalPath: Events\Default Work Unit.wwu
     PhysicalPath: Events\SFX.wwu
     List:
@@ -253,11 +253,10 @@ MonoBehaviour:
       minDuration: 0
   ExpandedItems:
   - /Left Hand of Darkness DES505_WwiseProject
-  - /Left Hand of Darkness DES505_WwiseProject/Events
   RtpcWwu:
   - Guid: '{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}'
-    m_lastTimePart2: -1999198272
-    m_lastTimePsrt1: 1556046841
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1077994674
     ParentPhysicalPath: 
     PhysicalPath: Game Parameters\Default Work Unit.wwu
     List:
@@ -281,15 +280,15 @@ MonoBehaviour:
         ObjectType: 13
   StateWwu:
   - Guid: '{CB41ADEE-FA1C-483B-A2CD-03A6157181E5}'
-    m_lastTimePart2: -1999198275
-    m_lastTimePsrt1: 205426998
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1117369262
     ParentPhysicalPath: 
     PhysicalPath: States\Default Work Unit.wwu
     List: []
   SwitchWwu:
   - Guid: '{E7B85DC1-1B77-45F6-958F-6271466D2D04}'
-    m_lastTimePart2: -1999198272
-    m_lastTimePsrt1: -664514933
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1117525684
     ParentPhysicalPath: 
     PhysicalPath: Switches\Default Work Unit.wwu
     List:
@@ -341,8 +340,8 @@ MonoBehaviour:
       - Normal
   TriggerWwu:
   - Guid: '{895A0BC3-1061-4B06-B714-BF953CB226D6}'
-    m_lastTimePart2: -1999198275
-    m_lastTimePsrt1: 204644853
+    m_lastTimePart2: -1999197841
+    m_lastTimePsrt1: 1117525684
     ParentPhysicalPath: 
     PhysicalPath: Triggers\Default Work Unit.wwu
     List: []

@@ -98,14 +98,19 @@ public class PlayerController : MonoBehaviour
 
         transform.rotation = Quaternion.Lerp(transform.rotation, characterRotation, 10 * Time.deltaTime);
     }
+    public void FreezePlayer(bool freezeState)
+    {
+        frozen = freezeState;
+    }
 
     void OnCollisionEnter(Collision collision)
     {
         jumpAllowed = true;
     }
 
-    public void FreezePlayer(bool freezeState)
+    void OnTriggerEnter(Collider other)
     {
-        frozen = freezeState;
+        if (other.GetComponent<RegionTitle>())
+            other.GetComponent<RegionTitle>().Display();
     }
 }
