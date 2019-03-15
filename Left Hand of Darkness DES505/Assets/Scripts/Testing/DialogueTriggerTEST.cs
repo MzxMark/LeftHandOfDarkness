@@ -2,7 +2,7 @@
 using UnityEditor;
 
 [CustomEditor(typeof(DialogueManager))]
-public class ObjectBuilderEditor : Editor
+public class DialogueTriggerTEST : Editor
 {
     public override void OnInspectorGUI()
     {
