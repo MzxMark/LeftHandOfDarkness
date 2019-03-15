@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6201a352b9c2d45a4dff618ab76bbe, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  AcousticTextureWwu:
+  - Guid: '{86199F17-ADAA-427E-BBFD-6BD9EA02F54C}'
+    m_lastTimePart2: -1999198275
+    m_lastTimePsrt1: 205582392
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}'
+    m_lastTimePart2: -1999198268
+    m_lastTimePsrt1: 1757840304
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List:
+    - Guid: df571deaafefff42b6c926454b8c13c3
+      ID: -1844782195
+      Name: Music_Reverb
+      Path: Default Work Unit\Master Audio Bus\Music_Bus\Music_Reverb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music_Bus
+        ObjectType: 2
+      - ElementName: Music_Reverb
+        ObjectType: 1
+    - Guid: 2e1f89f15cdd834eb3eb09050134cd46
+      ID: -502688235
+      Name: SFX_Reverb
+      Path: Default Work Unit\Master Audio Bus\SFX_Bus\SFX_Reverb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX_Bus
+        ObjectType: 2
+      - ElementName: SFX_Reverb
+        ObjectType: 1
+  BankWwu:
+  - Guid: '{EA7CA8CE-1975-4D09-B88E-9E8A7D6E0121}'
+    m_lastTimePart2: -1999198267
+    m_lastTimePsrt1: -1879833698
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 75449ea9d8a46e4a85eb4061960e8fbb
+      ID: -303024426
+      Name: Music
+      Path: Default Work Unit\Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+    - Guid: 8e91c9ce75081742869fee97e0027267
+      ID: 393239870
+      Name: SFX
+      Path: Default Work Unit\SFX
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+  EventWwu:
+  - Guid: '{3FBC1BF0-E3B6-4CB6-837D-7C4DDCEDF4DD}'
+    m_lastTimePart2: -1999198270
+    m_lastTimePsrt1: 146686886
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List: []
+  - Guid: '{ACD4ED5C-1B60-41BE-9D98-AFE3DE89F4DC}'
+    m_lastTimePart2: -1999198270
+    m_lastTimePsrt1: 146374392
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    PhysicalPath: Events\Music.wwu
+    List:
+    - Guid: 0c1c56316936a941bc9d592cfd468683
+      ID: 1108951413
+      Name: In_Dialogue
+      Path: Default Work Unit\Music\In_Dialogue
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: In_Dialogue
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a18f66e6b273ff4aa7129bbe537568a6
+      ID: 905934968
+      Name: Out_Dialogue
+      Path: Default Work Unit\Music\Out_Dialogue
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Out_Dialogue
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 6315b6958f7e8f448b0484e94e5718b8
+      ID: -1362926625
+      Name: Play_Music
+      Path: Default Work Unit\Music\Play_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 451c31edd02d6b488b479f11584cf0d0
+      ID: -1457583239
+      Name: Stop_Music
+      Path: Default Work Unit\Music\Stop_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Stop_Music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - Guid: '{D6B4A9B7-A434-4D5D-9868-683AEF312A56}'
+    m_lastTimePart2: -1999198269
+    m_lastTimePsrt1: 1435708915
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    PhysicalPath: Events\SFX.wwu
+    List:
+    - Guid: 74dc42494addac42a53128fe339a8077
+      ID: -1596219683
+      Name: Button_Press
+      Path: Default Work Unit\SFX\UI\Button_Press
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Button_Press
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: dbb2c653b75f5e4b858ba5392b126b98
+      ID: 1208921305
+      Name: Dialogue_Option
+      Path: Default Work Unit\SFX\UI\Dialogue_Option
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Dialogue_Option
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: fc5a333f097dfd4e81cd2755b64aa60a
+      ID: 103063709
+      Name: On_Foot
+      Path: Default Work Unit\SFX\Player\On_Foot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: On_Foot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 695fce5fce54a34da8bbd5488de6a919
+      ID: -2040170877
+      Name: On_Sled
+      Path: Default Work Unit\SFX\Player\On_Sled
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: On_Sled
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b6adcd8ef735574eb22ddfe0252c2b5f
+      ID: 1138681371
+      Name: Player_Buy
+      Path: Default Work Unit\SFX\UI\Player_Buy
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Player_Buy
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: a9c0c49aaf52c843b00a6aed6b32aa9a
+      ID: -885876571
+      Name: Player_Sell
+      Path: Default Work Unit\SFX\UI\Player_Sell
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Player_Sell
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /Left Hand of Darkness DES505_WwiseProject
+  - /Left Hand of Darkness DES505_WwiseProject/Events
+  RtpcWwu:
+  - Guid: '{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}'
+    m_lastTimePart2: -1999198272
+    m_lastTimePsrt1: 1556046841
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List:
+    - Guid: c11f61cc5be3934984d3e56dd23639aa
+      ID: 1889618524
+      Name: Player_Shifgrethor
+      Path: Default Work Unit\Player_Shifgrethor
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_Shifgrethor
+        ObjectType: 13
+    - Guid: eef154bfa8aaee49ba604d18cd697bad
+      ID: 1636617095
+      Name: Sled_Speed
+      Path: Default Work Unit\Sled_Speed
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sled_Speed
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{CB41ADEE-FA1C-483B-A2CD-03A6157181E5}'
+    m_lastTimePart2: -1999198275
+    m_lastTimePsrt1: 205426998
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{E7B85DC1-1B77-45F6-958F-6271466D2D04}'
+    m_lastTimePart2: -1999198272
+    m_lastTimePsrt1: -664514933
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List:
+    - Guid: 8e7353c8d183774788cf91bd8bb3fb6b
+      ID: -677451614
+      Name: Exploration_State
+      Path: Default Work Unit\Exploration_State
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Exploration_State
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 8ebfcd5fc4ba924c94768e8e58f02aa3
+      - bytes: c7a795f15fc1f44fa549b99cd10d4ba9
+      ValueIcons:
+      - ElementName: On_Foot
+        ObjectType: 10
+      - ElementName: On_Sled
+        ObjectType: 10
+      valueIDs: 9da0240683766586
+      values:
+      - On_Foot
+      - On_Sled
+    - Guid: 13d5901784d06644b9f66062b8ac4d74
+      ID: -1827022150
+      Name: Shifgrethor_State
+      Path: Default Work Unit\Shifgrethor_State
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Shifgrethor_State
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 24182a7487becd4c8c25d5ab8c827d84
+      - bytes: 5126a661e99c6e4e8e110295039a0756
+      - bytes: 75fffea896ded4438d7801cf3c0f0a2c
+      ValueIcons:
+      - ElementName: Bad
+        ObjectType: 10
+      - ElementName: Good
+        ObjectType: 10
+      - ElementName: Normal
+        ObjectType: 10
+      valueIDs: 36b6991e3a87da2798c42745
+      values:
+      - Bad
+      - Good
+      - Normal
+  TriggerWwu:
+  - Guid: '{895A0BC3-1061-4B06-B714-BF953CB226D6}'
+    m_lastTimePart2: -1999198275
+    m_lastTimePsrt1: 204644853
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []

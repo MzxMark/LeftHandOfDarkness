@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}" SchemaVersion="89" RootDocumentID="{03D1121A-B6C5-406F-BE41-DB790E125BFA}">
+	<AudioObjects>
+		<WorkUnit Name="Sled" ID="{C070EE20-F0C5-484A-8348-B4E7EEEC5257}" OwnerID="{03D1121A-B6C5-406F-BE41-DB790E125BFA}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="Sled_Movment" ID="{FBA1B6B4-E79A-4EC1-98C2-72E52717AD94}" ShortID="181152248">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{6AB81B57-92EC-455C-AC20-13124662A9EC}" ShortID="86115058">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Sled_Speed" ID="{BF54F1EE-AAA8-49EE-BA60-4D18CD697BAD}" WorkUnitID="{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4EF7B02B-3C16-4AF0-A112-9DABEEAD26FA}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>19.9582</XPos>
+												<YPos>-11.9539</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>40.12539</XPos>
+												<YPos>-10.37028</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>72.4138</XPos>
+												<YPos>-6.84846</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>79.10136</XPos>
+												<YPos>-4.20611</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-2.41148</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3339A910-A218-45F1-809E-4A23EE8AC107}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Sled_High" ID="{BF3F32CD-7539-4C38-8398-9E919E0F8C60}" ShortID="63996389">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3339A910-A218-45F1-809E-4A23EE8AC107}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sled_High" ID="{246367DC-638D-4FBE-A6E9-65FC0EF6E63A}" ShortID="564809937">
+									<Language>SFX</Language>
+									<AudioFile>Sled_High.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sled_High" ID="{246367DC-638D-4FBE-A6E9-65FC0EF6E63A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Sled_Mid" ID="{46B582BC-B8B3-43E8-8E7B-78E02BE92519}" ShortID="994143447">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3339A910-A218-45F1-809E-4A23EE8AC107}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Sled_Mid" ID="{B333A417-2B39-4A3D-89ED-C8A88EDCA2F1}" ShortID="628816047">
+									<Language>SFX</Language>
+									<AudioFile>Sled_Mid.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Sled_Mid" ID="{B333A417-2B39-4A3D-89ED-C8A88EDCA2F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Sled_Movement" ID="{84827F4E-80D1-4230-8BD4-412358F215AD}" ShortID="944431933">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Sled_Speed" ID="{BF54F1EE-AAA8-49EE-BA60-4D18CD697BAD}" WorkUnitID="{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Sled_Mid" ID="{46B582BC-B8B3-43E8-8E7B-78E02BE92519}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>60.00025</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Sled_High" ID="{BF3F32CD-7539-4C38-8398-9E919E0F8C60}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>39.3197467277487</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>100</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<BlendContainer Name="Wind" ID="{59D806D7-B8DE-421A-AE87-036C015CD068}" ShortID="1054545717">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{E05B72D1-3AC5-41EE-8034-FE221A9BB91C}" ShortID="3076529">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Sled_Speed" ID="{BF54F1EE-AAA8-49EE-BA60-4D18CD697BAD}" WorkUnitID="{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A4FD3A57-353F-4D21-A763-C86054676BC7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>23.82445</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>35.84117</XPos>
+												<YPos>-19.91271</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>79.72831</XPos>
+												<YPos>-8.78665</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>-7.04365</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3339A910-A218-45F1-809E-4A23EE8AC107}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wind" ID="{915C56B6-1659-45F4-87E7-75CFEFD84379}" ShortID="897093045">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3339A910-A218-45F1-809E-4A23EE8AC107}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EBCBB3C-2874-4AAE-B202-D2DCF05F2505}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind" ID="{5D90B335-E834-4FC8-B169-5537B0896C29}" ShortID="70052960">
+									<Language>SFX</Language>
+									<AudioFile>Wind.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind" ID="{5D90B335-E834-4FC8-B169-5537B0896C29}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

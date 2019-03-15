@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	103063709	On_Foot			\Default Work Unit\SFX\Player\On_Foot	
+	1138681371	Player_Buy			\Default Work Unit\SFX\UI\Player_Buy	
+	1208921305	Dialogue_Option			\Default Work Unit\SFX\UI\Dialogue_Option	
+	2254796419	On_Sled			\Default Work Unit\SFX\Player\On_Sled	
+	2698747613	Button_Press			\Default Work Unit\SFX\UI\Button_Press	
+	3409090725	Player_Sell			\Default Work Unit\SFX\UI\Player_Sell	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2467945146	Shifgrethor_State			\Default Work Unit\Shifgrethor_State	
+
+Switch	ID	Name	Switch Group			Notes
+	513390134	Bad	Shifgrethor_State			
+	668632890	Good	Shifgrethor_State			
+	1160234136	Normal	Shifgrethor_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1636617095	Sled_Speed			\Default Work Unit\Sled_Speed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17819996	Trade_Buy_1	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Buy_1_D1700A2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Buy\Trade_Buy_1		92612
+	42580081	Bad_Stab	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Bad_Stab_F962F742.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Dialogue_Choices\Bad_Stab		454992
+	70052960	Wind	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Wind_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sled\Wind\Wind		3016204
+	88311031	Trade_Sell_3	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Sell_3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Sell\Trade_Sell_3		29776
+	123098594	Trade_Buy_4	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Buy_4_8380849C.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Buy\Trade_Buy_4		98752
+	337765474	Neutral_Stab	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Neutral_Stab_5872C1FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Dialogue_Choices\Neutral_Stab		351536
+	442714228	Trade_Sell_2	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Sell_2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Sell\Trade_Sell_2		51528
+	494976030	Trade_Sell_4	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Sell_4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Sell\Trade_Sell_4		32964
+	564809937	Sled_High	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Sled_High_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sled\Sled_Movment\Sled_High		1975120
+	619055811	Good_Stab	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Good_Stab_C2F8B8F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Dialogue_Choices\Good_Stab		393980
+	628816047	Sled_Mid	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Sled_Mid_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sled\Sled_Movment\Sled_Mid		1975120
+	643226422	Trade_Buy_3	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Buy_3_919C8FE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Buy\Trade_Buy_3		147148
+	679915528	Trade_Sell_1	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\Trade_Sell_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Trading\Sell\Trade_Sell_1		51528
+	699168561	UI_Generic	M:\LeftHandOfDarkness\Left Hand of Darkness DES505\Left Hand of Darkness DES505_WwiseProject\.cache\Windows\SFX\UI_Generic_36870D9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Generic		80660
+

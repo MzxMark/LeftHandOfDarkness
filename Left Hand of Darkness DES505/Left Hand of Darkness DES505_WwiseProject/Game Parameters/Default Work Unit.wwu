@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{1753DBC7-BAE8-4836-B9E7-7C6A826CF8DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Sled_Speed" ID="{BF54F1EE-AAA8-49EE-BA60-4D18CD697BAD}"/>
+				<GameParameter Name="Player_Shifgrethor" ID="{CC611FC1-E35B-4993-84D3-E56DD23639AA}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

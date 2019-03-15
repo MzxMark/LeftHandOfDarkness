@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E7B85DC1-1B77-45F6-958F-6271466D2D04}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{E7B85DC1-1B77-45F6-958F-6271466D2D04}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Shifgrethor_State" ID="{1790D513-D084-4466-B9F6-6062B8AC4D74}">
+					<ChildrenList>
+						<Switch Name="Bad" ID="{742A1824-BE87-4CCD-8C25-D5AB8C827D84}"/>
+						<Switch Name="Normal" ID="{A8FEFF75-DE96-43D4-8D78-01CF3C0F0A2C}"/>
+						<Switch Name="Good" ID="{61A62651-9CE9-4E6E-8E11-0295039A0756}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Exploration_State" ID="{C853738E-83D1-4777-88CF-91BD8BB3FB6B}">
+					<ChildrenList>
+						<Switch Name="On_Foot" ID="{5FCDBF8E-BAC4-4C92-9476-8E8E58F02AA3}"/>
+						<Switch Name="On_Sled" ID="{F195A7C7-C15F-4FF4-A549-B99CD10D4BA9}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
