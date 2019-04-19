@@ -1,0 +1,100 @@
+1N  If you're here to buy animal fur, I'm afraid you'll have to wait a little longer. 2
+2C-I'm not here for fur, I want to ask you a question. 3
+2C  Excuse me sir, may I ask you a question? 4
+2C+ That's fine, can I reserve some£¿ 5
+3N  You are a little rude, young man, but what can I do for you? 6
+4N Sure, what do you want to know?  6
+5N  Of course you can! 7
+7P I also want to ask you a question sir. 8
+8N I will tell you all the things I know.  6
+6C- I know there was a new hunter who just stayed in your team for a week, I want to know more information. 9
+6C   I heard that there was a new hunter in your team. Could you please tell me some information about him? 9
+6C+ What a generous and enthusiastic person! Could you please tell me some information about that new hunter? 9
+9N Emm, yeah, there was a weird new hunter in my team. But I cannot tell you anything about him for some reason 10
+10C-  I knew that! You just want money right? 11
+10C   So what if I give you some money to buy that? 11
+10C+ I know that honesty is the best moral£¬as exchange, I can give you some money. 11
+11N How much do you want to pay? #B
+
+
+1C Excuse me, may I ask you some question? 2
+1C- Carrier are the most industrious people I've ever met. Why don't the state pay more for such people? 3
+1C+ How industrious the carriers is, because of you the whole country become more and more prosperous now. 4
+2N What can I do for you sir? 5
+3N If that's the only thing you want to say, you'd better leave hear. I dont want to hear anyone say some bad things to my country. 5
+4N Haha, thank you a lot! It's such an honor to do this job, what can I do for you? 5
+5P Was there a new carrier a few months ago? 6
+6N Well, you know, this job has a lot temporary. So I'm not sure who you are talking about. 7
+7P I can give you more information, he is..... 8
+8N Emmm, I think I can search this guy in my employee roster, but I'm so busy now, maybe you can come next week. 9
+9C Please, I really need this now. 10
+9C- Why you need such a long time! I think it should be an easy work! 11
+9C+ Ok, what if I give you some money, so you can do it now. 12
+10N Are you doubting me? It sounds rude at all. 13
+11N Well, you know, this thing cannot give me money. 14
+12N You are so generous sir! I will do that for you now! 14
+13P  I'm sorry for that, what can I do to make you do it now?15
+15N Well, money is always everything. 14
+14P Ok, so how much do you want?#B
+
+1N Farmer's job is very hard, but it is also full of achievement right? 2
+2C- You are not farmer before right? Someone tell me your story. 3
+2C+ Yeah, But you've been more accomplished in your past work, haven't you? 3
+3N I don't know what are you talking about. 4
+4P Someone told me that you used to be a guard for this prison. 5
+5N You shouldn't have known about it. 6
+6C- I have already know that now, and I want more details. 7
+6C  I want to know more about it, because I think it is related to my friend. 7
+6C+ People just cannot stop seeking for truth right? I appreciate if you give me more details. 7
+7N Well well, but I never do things free. 8
+8P I got it, I can pay you money as a trade, how much do you want?#B
+9C- Why don't you tell me all the details? You know the vanishing guard's name! 10
+9C  Please tell me the vanishing guard's name. 10
+9C+ You still got something didn't show me right? Credit is much more important than anything. 10
+10N I only promised to tell you the story, but I didn't promise anything else. 11
+11N Of course, you can spend more money to get this, but this one is not as cheap as that one before. 12
+12C- You greedy devil #B
+12C  I still got some money left, but I think I can pay you what you want. #B
+
+1N Hello, what can I do for you? 2
+2C- I want to know something important, this place wasn't a farm before right? 3
+2C+ Thank you for your enthusiasm, sir, the truth is always irresistible to explore, isn¡¯t it? 4
+3N I don't know what are you talking about. 6
+4N What true do you want to explore in this poor farm? 5
+5P  You know it, sir, the truth that you are hiding. 3
+6C- Don't pretend you don't know anything about that. 7
+6C+ I will give you some money if you tell me the history.8
+7N It is a farm, please leave here if you don't got anything else to say.9
+8N I hate money, but who can resist the temptation? How much do you want to pay me? #B
+9P Ok, I will trade with you to get the truth.#B
+10N Thank you for your generosity sir. This place used to be a special,prison. But it has been shut down a few months ago. 11
+11C- That sounds terrible, I'm happy to hear that it was shut down. 12
+11C+ Thank you for your  enthusiastic answer. Do you know why it was shut down? 13
+12N In fact, Prisons were full of people who are harmful to the country. So it was a really bad news. 14
+13N It was a secret that just few people know.I heard that was because a vanishing guard.But it was really bad because it made some people who were harmful go back to the society. 16
+14P  Sorry for what I said before, do you know why it was shut down? 15
+15N I don't know the exactly reason, but I heard that it is because a vanishing guard. 16
+16P Do you know where I can find more details? 17
+17N Maybe you can ask one of the prison guards, now he is also a farmer here. Goodbye. #
+
+
+1N What can I do for you? Respected citizen. 2
+2C- You used to be a highly respected minister. Why do you become an ordinary staff? 3
+2C Dear sir, I come here to hear about your story. 3
+2C+ Sir, even in your present job, you still treat people with such enthusiasm and respect.What happened to you that made you here? 3
+3N Sir, I am here just to learn more about the needs of the citizens. 4
+4C- Don't lie to me, I know your story. 5
+4C+ It's not a good shifgretHor to lie to people. 5
+5N But why I need to tell you my story? There is no benefit for me. 6
+6C- Tell people the truth was the rule of shifgretHor right? 7
+6C+ I will pay you money if you tell me. #B
+7N With this situation now, I don't think shifgretor is better than money, I need to feef my family. 8
+8P I can give you money if you want. #B
+
+
+
+
+
+ 
+
+
